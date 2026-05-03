@@ -1,0 +1,9 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": ".next"
+}
+EOFcat > vercel.json << 'EOF'
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": ".next"
+}
